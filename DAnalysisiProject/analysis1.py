@@ -1,7 +1,7 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import numpy as np
+
 
 # 设置绘图风格
 sns.set(style="whitegrid")

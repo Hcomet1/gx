@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
 
-# 设置绘图风格
+# 设置绘图风格1
 sns.set(style="whitegrid")
 plt.rcParams['font.sans-serif'] = ['SimHei'] # 用来正常显示中文标签
 plt.rcParams['axes.unicode_minus'] = False   # 用来正常显示负号

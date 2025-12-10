@@ -12,7 +12,7 @@ from sklearn.decomposition import PCA
 from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics import mean_squared_error, r2_score, classification_report, silhouette_score, confusion_matrix
 
-# 关联规则模块
+# 关联规则模块1
 try:
     from mlxtend.frequent_patterns import fpgrowth, association_rules
 except ImportError:

@@ -56,7 +56,7 @@ X_processed = preprocessor.fit_transform(X)
 print(f"数据预处理完成。特征矩阵形状: {X_processed.shape}")
 print("包含处理：去重 -> 特征构造(车龄) -> 缺失值填充 -> 数值标准化 -> 类别独热编码")
 
-#保存
+#保存1
 feature_names = preprocessor.get_feature_names_out()
 
 df_export = pd.DataFrame(X_processed, columns=feature_names)
